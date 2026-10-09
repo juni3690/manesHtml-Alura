@@ -13,6 +13,8 @@
                 margin: 0 auto;
                 padding: 16px;
             }
+            main{
+            }
             body{
                 text-align: center;
                 background: white;
@@ -20,6 +22,9 @@
                 max-width: 900px;
                 margin: 0 auto;
                 padding: 16px;
+            }
+            h2 {
+                color: red;
             }
             img{
                 width: 447px;
@@ -44,12 +49,12 @@
          
 
             <img src="https://raw.githubusercontent.com/juni3690/manesHtml-Alura/refs/heads/main/maneskin.jpeg" alt="Imagem do álbum 'Teatro D'ira' com membros da banda Måneskin">
-            
+        </main>  
             <button>🎸<span>0</span></button>
             <button>🤘<span>0</span></button>
             <button>🔥<span>0</span></button>
             <button>🇮🇹<span>0</span></button>
-        </main>    
+          
     </body>
     <script>
         const botoes = document.querySelectorAll
@@ -61,7 +66,7 @@
                 console.log("fui clicado")
                 let texto = botao.querySelector
                 ("span")
-                texto.textcontent++;
+                texto.textContent++;
             }
         })
     </script>
